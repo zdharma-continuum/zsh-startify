@@ -56,16 +56,16 @@ Issue the regular loading command of your plugin manager, pointing it to
 zsh-startify
 ```
 
-## [Zplugin](https://github.com/zdharma/zplugin)
+## [Zinit](https://github.com/zdharma-continuum/zinit)
 
 ```zsh
 # Option A – normal load without Turbo-Mode
-zplugin ice atload'zsh-startify'
-zplugin load zdharma/zsh-startify
+zinit ice atload'zsh-startify'
+zinit load zdharma-continuum/zsh-startify
 
 # Option B – a load with Turbo-Mode being in use
-zplugin ice wait'0' lucid atload'zsh-startify'
-zplugin load zdharma/zsh-startify
+zinit ice wait'0' lucid atload'zsh-startify'
+zinit load zdharma-continuum/zsh-startify
 ```
 
 The first option (A) loads the plugin synchronously, at the time of execution of the
