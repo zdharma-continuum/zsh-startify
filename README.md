@@ -36,7 +36,7 @@ zsh-startify:
 
 # Screenshots
 
-![zsh-startify](https://raw.githubusercontent.com/zdharma/zsh-startify/img/zsh-startify.png)
+![zsh-startify](https://raw.githubusercontent.com/zdharma-continuum/zsh-startify/img/zsh-startify.png)
 
 # Installation
 
