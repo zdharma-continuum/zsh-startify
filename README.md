@@ -43,7 +43,7 @@ zsh-startify:
 ## Any plugin manager
 
 Issue the regular loading command of your plugin manager, pointing it to
-`zdharma/zsh-startify`. Then, add invocation of `zsh-startify` to the end of
+`zdharma-continuum/zsh-startify`. Then, add invocation of `zsh-startify` to the end of
 `~/.zshrc`:
 
 
