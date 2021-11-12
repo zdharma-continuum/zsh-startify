@@ -6,7 +6,7 @@
 - [Screenshots](#screenshots)
 - [Installation](#installation)
   - [Any plugin manager](#any-plugin-manager)
-  - [Zinit](#zinit)
+  - [zinit](#zinit)
 - [Quick Start](#quick-start)
   - [Zstyles](#zstyles)
 
