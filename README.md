@@ -6,7 +6,7 @@
 - [Screenshots](#screenshots)
 - [Installation](#installation)
   - [Any plugin manager](#any-plugin-manager)
-  - [Zplugin](#zplugin)
+  - [Zinit](#zinit)
 - [Quick Start](#quick-start)
   - [Zstyles](#zstyles)
 
@@ -29,7 +29,7 @@ zsh-startify:
  - will show statistics of most popular aliases in use,
  - will show recently visited projects (i.e. `git` repositories, but also directories
    with a `Makefile`, a `CMakeLists.txt`, a `configure` script, etc. – a very advanced
-   feature, inherited from `zsh-startify`'s predecessor: `psprint/zaccumulator` plugin),
+   feature, inherited from `zsh-startify`'s predecessor: `zdharma-continuum/zaccumulator` plugin),
  - will show recently ran `git` commands, with analysis of e.g. recently checked-out
    branches,
  - will cooperate with any bookmarking plugins to show their bookmarks.
@@ -43,7 +43,7 @@ zsh-startify:
 ## Any plugin manager
 
 Issue the regular loading command of your plugin manager, pointing it to
-`zdharma/zsh-startify`. Then, add invocation of `zsh-startify` to the end of
+`zdharma-continuum/zsh-startify`. Then, add invocation of `zsh-startify` to the end of
 `~/.zshrc`:
 
 
@@ -69,7 +69,7 @@ zinit load zdharma-continuum/zsh-startify
 ```
 
 The first option (A) loads the plugin synchronously, at the time of execution of the
-`zplugin load ...` command. The second option (B) loads in an asynchronous manner, 0
+`zinit load ...` command. The second option (B) loads in an asynchronous manner, 0
 seconds after the prompt being first displayed.
 
 # Quick Start
